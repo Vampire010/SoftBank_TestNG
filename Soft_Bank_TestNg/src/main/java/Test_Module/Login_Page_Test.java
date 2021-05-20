@@ -8,7 +8,7 @@ import User_Credn_Module.Kb_Login_Page;
 
 public class Login_Page_Test {
 
-	String  Browser_Types = "edge";
+	String  Browser_Types = "chrome";
 	 String URL = "http://mykidsbank.org";
 	 
 	 Kb_Login_Page Login_Pages = new Kb_Login_Page();
@@ -31,7 +31,7 @@ public class Login_Page_Test {
 	public  void close_browser()
 	{
 		
-				Login_Pages.driver.quit();
+				//Login_Pages.driver.quit();
 			
 	}
 }
