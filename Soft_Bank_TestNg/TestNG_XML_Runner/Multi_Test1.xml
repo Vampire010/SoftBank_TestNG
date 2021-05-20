@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Auomation Test" >
+     
+       <groups> 
+       		<run>
+       			<include name="Smoke_Test_Case"/>
+       			<include name="Regresssion_Test_Case" />
+       		    <exclude name="Functional_Test_case" />
+       			   			
+	         </run>
+	   </groups>    
+	
+	   <classes>
+	   		<class name = "Multi_Test.Muti_Test_Runner" />
+	   </classes>
+	   		    
+   </test>
+ </suite>
